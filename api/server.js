@@ -36,7 +36,7 @@ console.log('Servidor HTTP esta escutando na porta ' + port);
 
 app.get('/', function(req, res){
 
-	res.send({msg:'OlÃ¡'});
+	res.send({msg:'Olá!'});
 });
 
 //POST (create)
